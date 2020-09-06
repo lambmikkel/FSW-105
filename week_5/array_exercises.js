@@ -88,7 +88,7 @@ console.log(total([1,2,3]))
 console.log("----------")
 
 //Turn array of numbers to long string
-function stringConcat(arr) {
+function stringConcat(arr) {}
 //   const result = arr.reduce(function(accumulator, currentValue, index, array);
   
 //   // arr.reduce(function (accumulator, icurrentValue) {
@@ -129,11 +129,11 @@ function stringConcat(arr) {
 
 //Section D
 //Sort array smallest to largest
-function leastToGreatest(arr){
-  let result = arr.sort(function(a,b) {
-    return a-b
-  })
+// function leastToGreatest(arr){
+//   let result = arr.sort(function(a,b) {
+//     return a-b
+//   })
 
-}
-}
-console.log(leastToGreatest([1, 3, 5, 2, 90, 20,]));
+// }
+// }
+// console.log(leastToGreatest([1, 3, 5, 2, 90, 20,]));
